@@ -1,0 +1,48 @@
+body {
+    background:lightblue;
+}
+
+.container {
+    text-align: center;
+    /* border: 10px solid grey; */
+}
+
+table {
+    margin: auto;
+    /* border: 10px solid grey; */
+}
+
+input{
+    font-size: 30px;
+    height: 80px;
+    width: 420px;
+    /* border: 5px solid red; */
+    border-radius: 13px;
+    
+    margin-bottom: 10px;
+    background: black;
+    color:rgb(2, 255, 2);
+}
+
+button {
+    font-size: 40px;
+    background: white;
+    width: 93px;
+    height: 90px;
+    border-radius: 7px;
+    /* transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out; */
+
+    box-shadow: 0 3px rgb(100,100,100);
+    margin: 5px;
+}
+
+button:active {
+    transform: translateY(2px);
+    box-shadow: none;
+
+}
+
+.calculator {
+    display: inline-block;
+    margin-top: 80px;
+}
